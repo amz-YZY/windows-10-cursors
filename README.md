@@ -12,19 +12,32 @@ This repository contains the default Windows 10 cursor files in a ready-to-use f
 
 These are the default Windows 10 cursors, not custom or third-party cursor themes.
 
+## Cursor file structure
+
+The cursor files are split into 3 parts, which are stored in 3 separate folders within this repository.
+
+Once downloaded, all 3 folders must be merged into one single folder before installation.
+
+After merging them together, copy the resulting files into:
+
+`C:\Windows\Cursors`
+
+Do not paste the folders individually into `C:\Windows\Cursors` unless they have already been merged into one unified cursor set.
+
 ## Install Instructions
 
 1. Download this repository or extract the files to a folder on your computer.
-2. Open File Explorer and go to:
+2. Merge the 3 downloaded folders into one combined folder.
+3. Open File Explorer and go to:
    `C:\Windows\Cursors`
-3. Copy the cursor files from this project into that folder.
-4. Open the Mouse settings:
+4. Copy the merged cursor files from the combined folder into that directory.
+5. Open the Mouse settings:
    - Press `Win + I`
    - Go to `Bluetooth & devices` > `Mouse`
    - Click `Additional mouse settings`
    - Open the `Pointers` tab
-5. Select the default Windows cursor scheme or browse to the restored default cursor files if needed.
-6. Click `Apply` and then `OK`.
+6. Select the default Windows cursor scheme or browse to the restored default cursor files if needed.
+7. Click `Apply` and then `OK`.
 
 ## Typical Windows cursor files
 
